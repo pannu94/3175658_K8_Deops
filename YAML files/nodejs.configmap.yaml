@@ -1,0 +1,7 @@
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: nodejs-config
+data:
+  MONGODB_URL: mongodb://{0}:{1}@mongodb-svc:27017
